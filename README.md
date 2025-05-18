@@ -14,7 +14,11 @@ This project leverages XGBoost to predict and recommend the best comparable prop
 
 How It Works
 -Load appraisal data, including both subject properties and comparable properties (comps).
+
 -Extract and clean features from all properties, ensuring consistency between comps and subjects.
--Use cosine similarity with TF-IDF to compare and score address similarity between properties.
+
+-Use cosine similarity  to compare and score address similarity between properties.
+
 -Train an XGBoost classifier to predict whether a given property is a valid comp for a subject property.
+
 -For each subject property, rank all potential comps and recommend the top 3 based on predicted relevance.
