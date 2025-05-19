@@ -5,7 +5,7 @@
 This project leverages XGBoost to predict and recommend the best comparable properties for a given subject property. It reduces the time and subjectivity in manual property comparisons.
 
 🚀 Key Features
-⚙️ Developed a robust ML model using XGBoost
+⚙️ Developed a  ML model using XGBoost
 📊 Trained on real-world appraisal data
 🧠 Automatically identifies top 3 comparable properties for each subject property
 🕒 Saves time and increases consistency compared to manual appraisal
